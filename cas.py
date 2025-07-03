@@ -1,7 +1,7 @@
 import pandas as pd
 import urllib3
 from swat import CAS
-from src.utils.auth_utils import get_token, connect_cas_https
+from auth_utils import get_token, connect_cas_https
 
 # Suppress SSL warnings for demo
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
